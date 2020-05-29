@@ -1,6 +1,6 @@
 from collections import defaultdict , deque
 from sys import stdin , stdout
-import math
+import math , heapq
 listin = lambda: list(map(int,input().split()))
 mapin = lambda: map(int,input().split())
 
@@ -21,7 +21,6 @@ def getWaitTime(process,n,bt,wt,slice_time):
                     global_time += balance_bt[i]
                     wt[i] = global_time - bt[i]
                     balance_bt[i] = 0
-
         if res == True:
             break
 
