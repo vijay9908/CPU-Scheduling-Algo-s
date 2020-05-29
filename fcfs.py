@@ -19,8 +19,8 @@ def getAvgTime(process,n,bt):
     comptime = 0
     print('Processes ' + '  Burst-Time '+ '  Completion-Time ' + '   Wait-Time ' + '    TurnAroundTime')
     for i in range(n):
-        Total_wt = Total_wt + wt[i]
-        Total_tat = Total_tat + tat[i]
+        Total_wt += wt[i]
+        Total_tat += tat[i]
         comptime += bt[i]
         print(' ' + str(i+1) + '\t\t' + str(bt[i]) + '\t\t' +
                     str(comptime) + '\t\t' +  str(wt[i]) + '\t\t' + str(tat[i]))
