@@ -28,9 +28,12 @@ NOTE: Processes with the same priority are executed on first come first served b
 For the example set , The Average Wait and TurnAroundTime are 13.00ms and 8.50 ms respectively.
 
 3.) Round Robin Scheduling:
-	Round Robin Scheduling is one in which a process is executed for a fixed time slot in a cyclic fashion. This results in lower Wait-Time and Response-Time with cost of lower through-put at mid-interval time and doesn’t suffer from starvation.
+	Round Robin Scheduling is one in which a process is executed for a fixed time slot in a cyclic fashion. This results in lower Wait-Time and Response-Time with cost of lower through-put at mid-interval time and doesn’t suffer from starvation.(Implementation on batch-processing)
 
 ￼![Screenshot](RR.png)
+
+The SS is taken when time-slice is set to 2ms.
+
 
 4.) Multi-Level Queue Scheduling ( Non-Feedback Induced):
 	A scheduling strategy where the processes are divided into n-classes and are assigned and operated on different scheduling algorithms which results in higher throughput , efficient and lower TurnaroundTime.
