@@ -14,7 +14,7 @@ Common terms used in Computation on Scheduling Algorithms:
 	First in, first out (FIFO), also known as first come, first served (FCFS), is the simplest scheduling algorithm. FIFO simply queues processes in the order that they arrive in the ready queue.
 In this, the process that comes first will be executed first and next process starts only after the previous gets fully executed. ( Here considering Batch arrival of processes )
 
-![Screenshot](FCFS.png)
+![Screenshot](Screen-Shots/FCFS.png)
 ￼
 For the example set , The Average Wait and TurnAroundTime are 11.33ms and 15.83ms respectively.
 
@@ -23,14 +23,14 @@ For the example set , The Average Wait and TurnAroundTime are 11.33ms and 15.83m
 
 NOTE: Processes with the same priority are executed on first come first served basis. (For Batch arrival of processes)
 
-![Screenshot](Priority.png)
+![Screenshot](Screen-Shots/Priority.png)
 ￼
 For the example set , The Average Wait and TurnAroundTime are 13.00ms and 8.50 ms respectively.
 
 3.) Round Robin Scheduling:
 	Round Robin Scheduling is one in which a process is executed for a fixed time slot in a cyclic fashion. This results in lower Wait-Time and Response-Time with cost of lower through-put at mid-interval time and doesn’t suffer from starvation.(Implementation on batch-processing)
 
-￼![Screenshot](RR.png)
+￼![Screenshot](Screen-Shots/RR.png)
 
 The SS is taken when time-slice is set to 2ms.
 
