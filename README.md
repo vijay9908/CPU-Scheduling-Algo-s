@@ -35,9 +35,9 @@ For the example set , The Average Wait and TurnAroundTime are 13.00ms and 8.50 m
 The SS is taken when time-slice is set to 2ms.
 
 
-4.) Multi-Level Queue Scheduling ( Non-Feedback Induced):
+4.) Multi-Level Queue Scheduling ( Non-Feedback Induced ):
 	A scheduling strategy where the processes are divided into n-classes and are assigned and operated on different scheduling algorithms which results in higher throughput , efficient and lower TurnaroundTime.
 Is ideal when process that are running in foreground and background differ in priorities, execution-time and user-intervention times.
 The version listed here utilises a modified queue implementation using FCFS , Round-Robin along with randomised selection which can improve the general implementation by huge margin in our needs.
 (The work is still in progress as this involves a lot of work and time with paper implementation itself being the toughest. Current test version is submitted and improvements to be expected in future-time.
-
+Note: MLQ needs dynamic placing and allocation implementation which is missing in this.
